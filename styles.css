@@ -1,0 +1,88 @@
+/*******************
+*GLOBAL
+********************/
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+@font-face {
+	font-family: TrueLies;
+	src: url(assets/fonts/True_Lies.ttf)
+}
+
+#logo {
+	font-family: TrueLies, serif;
+}
+/*******************
+*NAVBAR
+********************/
+#donate {
+	background: orange;
+	color: whitesmoke;
+	border-radius: 10%;
+}
+
+
+/*******************
+*JUMBOTRON
+********************/
+.jumbotron {
+	background-image: url("https://dl.dropboxusercontent.com/s/8nmhu5b5i5rxv3i/usa_flag_in_feild.jpg?dl=0");
+	background-size: cover;
+	height: 40rem;
+	margin-bottom: 0;
+}
+
+/*******************
+*ABOUT US
+********************/
+#about-us {
+	background-color: #F8F9FA;
+	padding: 4rem;
+}
+
+/*******************
+*GET INVOLVED
+********************/
+#get-involved {
+	padding: 2rem;
+}
+
+.card {
+	text-align: center;
+	border: none;
+	margin: 2em;
+}
+
+/*******************
+*QUOTE
+********************/
+#quotes {
+	background-color: #F8F9FA;
+	padding: 2rem;
+}
+
+/*******************
+*WHO WE SERVE
+********************/
+#who-we-serve {
+	padding: 2rem;
+}
+
+#who-we-serve img {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+	border-radius: 5%;
+}
+
+/*******************
+*FOOTER
+********************/
+footer {
+	background-color: #F8F9FA;
+	padding: 2rem;
+	text-align: center;
+}
